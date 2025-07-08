@@ -2,10 +2,10 @@
 import express from "express";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import transporter from "./nodemailer.js";
+import transporter from "./../mail/nodemailer.js";
 import "dotenv/config";
 import cookieParser from "cookie-parser";
-import db from "./../dataBase.js";
+import db from "./../database/dataBase.js";
 
 // ====================== CONTROLLERS ======================
 
